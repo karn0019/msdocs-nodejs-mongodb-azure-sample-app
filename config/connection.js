@@ -32,8 +32,8 @@ async function getConnectionInfo() {
   const DATABASE_NAME = process.env.DATABASE_NAME || "azure-todo-app";
 
   return {
-    DATABASE_URL: process.env.DATABASE_URL,
-    DATABASE_NAME: process.env.DATABASE_NAME
+    DATABASE_URL: "https://expressjs-mongodb-132-server.mongo.cosmos.azure.com:443",
+    DATABASE_NAME: "expressjs-mongodb-132-database"
   }
 }
 
